@@ -1,0 +1,61 @@
+body{
+    background-color:powderblue;
+}
+.calculator{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+ margin-top: 50px; 
+
+}
+.result{
+    
+height: 120px;
+}
+.output{
+    padding:5px;
+    text-align: right;
+    height: 80px;
+    font-size: 42px;
+}
+.history{
+    text-align: right;
+    height: 40px;
+    padding: 10px;
+    color: grey;
+}
+
+.keyboard{
+    height: 380px;
+}
+.operator, .number, .empty,.btn{
+width: 95px;
+height: 65px;
+display:inline-flexbox;
+background-color: white;
+border: 0px;
+font-size: 18px;
+color: grey;
+}
+button:nth-child(4){
+    font-weight: bold;
+    font-size: 24px;
+    color:turquoise;
+}button:nth-child(8){
+    font-weight: bold;
+    font-size: 24px;
+    color:turquoise;
+}button:nth-child(12){
+    font-weight: bold;
+    font-size: 24px;
+    color:turquoise;
+}button:nth-child(16){
+    font-weight: bold;
+    font-size: 24px;
+    color:turquoise;
+}button:nth-child(20){
+    font-weight: bold;
+    font-size: 24px;
+    color:turquoise;
+}
